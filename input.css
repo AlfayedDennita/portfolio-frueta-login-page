@@ -1,0 +1,10 @@
+@tailwind base;
+
+@layer base {
+  input {
+    @apply outline-none;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

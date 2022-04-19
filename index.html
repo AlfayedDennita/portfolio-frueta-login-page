@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="description" content="Frueta Institute Login Page" />
+    <meta name="keyword" content="frueta, frueta institute, login" />
+    <meta name="author" content="Alfayed Dennita" />
+    <meta name="theme-color" content="#312e81" />
+    <link rel="icon" type="images/x-icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Login - Frueta Institute</title>
+  </head>
+  <body
+    class="relative flex min-h-screen min-w-[100vw] items-center justify-center overflow-x-hidden bg-indigo-900 bg-[url('images/bg-image.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center font-noto-sans text-slate-50 after:fixed after:inset-0 after:-z-10 after:bg-indigo-900 after:opacity-75"
+  >
+    <main
+      class="sm:p6 flex max-w-screen-sm flex-col items-center gap-8 py-6 px-3"
+    >
+      <h1 class="font-cinzel text-3xl font-bold">
+        <a href="" title="Frueta Institute">Frueta Institute</a>
+      </h1>
+
+      <div>
+        <h2 class="mb-2 text-5xl font-black">Welcome Back!</h2>
+        <p class="text-slate-300">
+          Please login to OneCampus&trade; with your Frueta email address
+        </p>
+      </div>
+
+      <form class="flex w-[95%] flex-col gap-8" action="" method="post">
+        <label
+          class="flex items-center divide-x divide-neutral-50 border border-neutral-50 py-4 px-6"
+          for="input--email"
+          name="email"
+          title="Email"
+        >
+          <img
+            class="h-6 w-12 object-contain pr-4"
+            src="images/email-icon.png"
+            alt=""
+          />
+          <input
+            id="input--email"
+            class="grow bg-transparent pl-4 placeholder:text-neutral-50"
+            type="email"
+            placeholder="Enter your email address"
+            title="Email"
+          />
+        </label>
+
+        <label
+          class="flex items-center divide-x divide-neutral-50 border border-neutral-50 py-4 px-6"
+          for="input--password"
+          name="password"
+          title="Password"
+        >
+          <img
+            class="h-6 w-12 object-contain pr-4"
+            src="images/password-icon.png"
+            alt=""
+          />
+          <input
+            id="input--password"
+            class="grow bg-transparent pl-4 placeholder:text-neutral-50"
+            type="password"
+            placeholder="Enter your password"
+            title="Password"
+          />
+        </label>
+
+        <div
+          class="flex flex-col items-center justify-between gap-4 sm:flex-row"
+        >
+          <label
+            class="flex cursor-pointer items-center gap-3"
+            for="checkbox--remember"
+            title="Remember Me"
+          >
+            <input
+              id="checkbox--remember"
+              class="h-7 w-7 cursor-pointer appearance-none border border-neutral-50 p-1 checked:bg-[url('images/check-icon.png')] checked:bg-contain checked:bg-center checked:bg-no-repeat checked:bg-origin-content"
+              type="checkbox"
+              name="remember"
+              title="Remember Me"
+            />
+            Stay logged in
+          </label>
+
+          <a
+            class="hover:underline hover:decoration-dotted"
+            href="#"
+            title="Forgot Password"
+            >I've forgotten my password</a
+          >
+        </div>
+
+        <button
+          class="inline-block self-center border-2 border-neutral-50 px-16 py-2 font-bold uppercase transition-colors hover:bg-neutral-50 hover:text-indigo-900"
+          type="submit"
+          title="Sign In"
+        >
+          Sign In >
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

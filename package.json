@@ -1,0 +1,19 @@
+{
+  "name": "frueta-login-page",
+  "version": "1.0.0",
+  "description": "Frueta Institute Login Page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./output.css --minify"
+  },
+  "author": "Alfayed Dennita",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.24"
+  }
+}
